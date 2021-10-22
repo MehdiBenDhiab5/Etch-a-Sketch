@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.div-container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+}
+.div-line{
+    display: flex;
+    flex: auto;
+    align-items: stretch;
+}
+.div-square{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(211, 211, 211);
+    flex: 1;
+}
+
+.hovered{
+    background-color: rgb(66, 66, 66);
+}
+
+#btn1{
+    padding: 10px;
+
+}
